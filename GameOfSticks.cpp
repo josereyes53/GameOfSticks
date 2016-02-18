@@ -117,7 +117,7 @@ void gameOfSticks() {
                 cout << "\nThere is " << sticksOnTable << " stick on the board.\n";
             else cout << "\nThere are " << sticksOnTable << " sticks on the board.\n";
 
-            vector<vector<int> > hat (sticksOnTable, vector<int> {1,2,3});
+            vector<vector<int>> hat (sticksOnTable, vector<int> {1,2,3});
 
             playerTwoSticks = rand() % hat[sticksOnTable-1].size() + 1 ;
 
