@@ -7,7 +7,7 @@ using namespace std;
 
 void gameOfSticks() {
 
-    srand(time(NULL));
+    //srand(time(NULL));
 
     int sticksOnTable, playerOneSticks, playerTwoSticks, gameOption;
 
